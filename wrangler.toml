@@ -1,0 +1,13 @@
+#:schema node_modules/@opennextjs/cloudflare/wrangler-schema.json
+
+name = "safemoltbook"
+compatibility_date = "2024-12-01"
+compatibility_flags = ["nodejs_compat"]
+
+# OpenNext output directory
+main = ".open-next/worker.js"
+
+# Assets config for static files
+[assets]
+directory = ".open-next/assets"
+binding = "ASSETS"
